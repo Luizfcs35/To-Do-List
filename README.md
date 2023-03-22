@@ -13,4 +13,3 @@ Uma Lista simples de Tarefas.
 ![to do list](exemplo.png "exemplo de como deve ficar")
 
 
-
