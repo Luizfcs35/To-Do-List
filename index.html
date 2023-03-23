@@ -11,10 +11,12 @@
     <div id="title">
       <h3>To Do List</h3>
     </div>
-    <form action="">
-      <label for="add">Tarefa</label>
-      <input id="add" type="text" placeholder="Digite aqui sua tarefa" />
-      <button type="submit">Adicionar</button>
+    <form>
+      <fieldset>
+        <legend>Faça sua Lista</legend>
+        <input id="add" type="text" placeholder="Digite aqui sua tarefa" />
+        <button type="submit" onclick="adicionarTarefa()">Adicionar</button>
+      </fieldset>    
     </form>
     <div class="listaTarefas">
       <!--todas as tarefas serão adicionadas aqui-->
